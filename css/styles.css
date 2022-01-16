@@ -97,7 +97,7 @@ h1 a, .top-nav a {
 
 .intro-column-2 {
  margin: 5px;
-
+ text-align: center;
 
 }
 
@@ -215,6 +215,7 @@ footer {
     width: 70%;
     float: left;
 
+
   }
 
 
@@ -236,6 +237,7 @@ footer {
   }
 
 
+  
 
   .footer-nav {
     display: flex;
@@ -297,13 +299,13 @@ footer {
 }
 
 .intro-column-1{
-  width: 30%;
+  width: 40%;
   float: right;
 
 }
 
 .intro-column-2{
-  width: 70%;
+  width: 60%;
   float: left;
 }
 

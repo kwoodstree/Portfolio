@@ -47,8 +47,8 @@ h1, .top-nav {
 
 .footer-nav {
   display: none;
-
 }
+
 
 .footer-nav2{
   text-transform: uppercase;
@@ -73,6 +73,7 @@ h1 a, .top-nav a {
  .footer-nav li {
   padding: 10px 0;
   margin: 5px auto;
+
 
 } *
 
@@ -167,6 +168,10 @@ footer {
   background-color: #107896;
 }
 
+footer, h2 {
+  width: 100%;
+}
+
 .full {
   display: none;
 }
@@ -193,9 +198,6 @@ footer {
     text-align: center;
     /* flex-basis: calc(48.5% - 0px);  */
     /* margin-left: 10px; */
-
-
-
   }
 
   .intro{
@@ -215,9 +217,7 @@ footer {
     width: 70%;
     float: left;
 
-
   }
-
 
   .top-nav {
     margin-top: 0;
@@ -236,9 +236,6 @@ footer {
     color: #fff;
   }
 
-
-  
-
   .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -249,10 +246,26 @@ footer {
   .footer-nav,
   .foooter-nav li {
     margin-left: 30px;
+
+
+  }
+
+   footer, h2 {
+    width: 100%;
+    word-spacing: 5px;
+
+
   }
 
   .footer-nav2 {
    display: none;
+
+  }
+
+
+  .back {
+    display: none;
+
 
   }
 
@@ -331,16 +344,26 @@ footer {
     width: initial;
     margin-bottom: 0;
     margin-left: 15px ;
+
   }
   .footer-nav {
     display: flex;
-    /* justify-content: space-between; */
+    /* justify-content: space-between;  */
     align-items: center;
 
   }
+
+footer, h2 {
+  width: 100%;
+}
+
   .footer-nav2{
    display: none;
 
+  }
+
+  .back {
+   display: none;
   }
 
    .box-1 {

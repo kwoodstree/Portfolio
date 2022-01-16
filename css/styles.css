@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: grey;
   background-color: #fff;
 }
 
@@ -29,7 +29,7 @@ nav {
   font-family: "Roboto", Arial, Verdana;
   font-weight: 400;
   letter-spacing: .05em;
-  background-color: #829356;
+  background-color: grey;
   padding: 25px;
 }
 
@@ -127,9 +127,16 @@ h1 a, .top-nav a {
 
 
 .col h2 {
-color: blue;
+color: grey;
 
 }
+
+p {
+  margin: 10px;
+}
+
+
+
  /*.box-1 {
   background-color: #E93145;
 }
@@ -169,7 +176,7 @@ footer {
 }
 
 footer, h2 {
-  width: 100%;
+  max-width: 100%;
 }
 
 .full {
@@ -246,9 +253,11 @@ footer, h2 {
   .footer-nav,
   .foooter-nav li {
     margin-left: 30px;
-
-
   }
+
+
+
+   }
 
    footer, h2 {
     width: 100%;
@@ -354,7 +363,7 @@ footer, h2 {
   }
 
 footer, h2 {
-  width: 100%;
+  max-width: 100%;
 }
 
   .footer-nav2{

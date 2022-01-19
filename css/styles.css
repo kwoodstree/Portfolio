@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  color: grey;
+  color: black;
   background-color: #fff;
 }
 
@@ -29,7 +29,7 @@ nav {
   font-family: "Roboto", Arial, Verdana;
   font-weight: 400;
   letter-spacing: .05em;
-  background-color: grey;
+  background-color: #829356;
   padding: 25px;
 }
 
@@ -47,8 +47,8 @@ h1, .top-nav {
 
 .footer-nav {
   display: none;
-}
 
+}
 
 .footer-nav2{
   text-transform: uppercase;
@@ -74,7 +74,6 @@ h1 a, .top-nav a {
   padding: 10px 0;
   margin: 5px auto;
 
-
 } *
 
 .top-nav a {
@@ -98,7 +97,6 @@ h1 a, .top-nav a {
 
 .intro-column-2 {
  margin: 5px;
- text-align: center;
 
 }
 
@@ -118,7 +116,6 @@ h1 a, .top-nav a {
   text-align: center;
   letter-spacing: 1px;
   padding-top: 30px;
-
 }
  img{
    display:block;
@@ -127,16 +124,9 @@ h1 a, .top-nav a {
 
 
 .col h2 {
-color: grey;
+color: blue;
 
 }
-
-p {
-  margin: 10px;
-}
-
-
-
  /*.box-1 {
   background-color: #E93145;
 }
@@ -175,10 +165,6 @@ footer {
   background-color: #107896;
 }
 
-footer, h2 {
-  max-width: 100%;
-}
-
 .full {
   display: none;
 }
@@ -205,6 +191,8 @@ footer, h2 {
     text-align: center;
     /* flex-basis: calc(48.5% - 0px);  */
     /* margin-left: 10px; */
+
+
   }
 
   .intro{
@@ -223,8 +211,9 @@ footer, h2 {
   .intro-column-2{
     width: 70%;
     float: left;
-
   }
+
+
 
   .top-nav {
     margin-top: 0;
@@ -243,6 +232,8 @@ footer, h2 {
     color: #fff;
   }
 
+
+
   .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -255,26 +246,8 @@ footer, h2 {
     margin-left: 30px;
   }
 
-
-
-   }
-
-   footer, h2 {
-    width: 100%;
-    word-spacing: 5px;
-
-
-  }
-
   .footer-nav2 {
    display: none;
-
-  }
-
-
-  .back {
-    display: none;
-
 
   }
 
@@ -309,6 +282,11 @@ footer, h2 {
     float: left;
     padding-left: 5px;
   }
+
+
+
+
+
 }
 
 @media (min-width: 1024px) {
@@ -321,13 +299,13 @@ footer, h2 {
 }
 
 .intro-column-1{
-  width: 40%;
+  width: 30%;
   float: right;
 
 }
 
 .intro-column-2{
-  width: 60%;
+  width: 70%;
   float: left;
 }
 
@@ -353,26 +331,16 @@ footer, h2 {
     width: initial;
     margin-bottom: 0;
     margin-left: 15px ;
-
   }
   .footer-nav {
     display: flex;
-    /* justify-content: space-between;  */
+    /* justify-content: space-between; */
     align-items: center;
 
   }
-
-footer, h2 {
-  max-width: 100%;
-}
-
   .footer-nav2{
    display: none;
 
-  }
-
-  .back {
-   display: none;
   }
 
    .box-1 {
